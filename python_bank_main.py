@@ -4,6 +4,7 @@ from methods import *
 from tkinter import messagebox 
 import random
 import time
+import math
 try:
   mydb=my.connect(host='localhost',user='root',database='python_bank',password="gautham2004")
   C=mydb.cursor()
